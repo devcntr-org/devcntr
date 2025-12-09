@@ -1,0 +1,8 @@
+name: dev-center
+version: ~
+title: Dev Center
+nav:
+- modules/ROOT/nav.adoc
+- modules/knowledge-base/nav.adoc
+- modules/specifications/nav.adoc
+
