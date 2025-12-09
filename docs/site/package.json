@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "description": "Dev Center - Developer tooling and project management application",
   "scripts": {
-    "docs:build": "antora antora.yml",
-    "docs:preview": "antora --fetch antora.yml"
+    "predocs:build": "pnpm install",
+    "docs:build": "antora antora-playbook.yml",
+    "docs:preview": "antora --fetch antora-playbook.yml"
+  },
+  "dependencies": {
+    "simple-icons": "^12.0.0"
   },
   "devDependencies": {
     "@antora/cli": "^3.1",

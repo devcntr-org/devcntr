@@ -3,11 +3,13 @@ site:
   start_page: ROOT:index.adoc
 content:
   sources:
-    - url: ..
+    - url: ../..
       branches: HEAD
-      start_path: docs
+      start_path: docs/modules
       worktrees: true
       edit_url: false
+output:
+  dir: ../build/site
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable

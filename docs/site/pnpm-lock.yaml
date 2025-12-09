@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      simple-icons:
+        specifier: ^12.0.0
+        version: 12.4.0
     devDependencies:
       '@antora/cli':
         specifier: ^3.1
@@ -552,6 +556,10 @@ packages:
 
   simple-get@4.0.1:
     resolution: {integrity: sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCFqOuXxvA==}
+
+  simple-icons@12.4.0:
+    resolution: {integrity: sha512-2uL8PHFDyBLQGhZsAvYcaHqm5KjNzIepPshTLZky9Dc6HgPFI83SAVC8of3KYtr+7O8zJggrGYTxyUu/9hyYgA==}
+    engines: {node: '>=0.12.18'}
 
   sonic-boom@4.0.1:
     resolution: {integrity: sha512-hTSD/6JMLyT4r9zeof6UtuBDpjJ9sO08/nmS5djaA9eozT9oOlNdpXSnzcgj4FTqpk3nkLrs61l4gip9r1HCrQ==}
@@ -1234,6 +1242,8 @@ snapshots:
       decompress-response: 6.0.0
       once: 1.4.0
       simple-concat: 1.0.1
+
+  simple-icons@12.4.0: {}
 
   sonic-boom@4.0.1:
     dependencies:
