@@ -4,15 +4,24 @@ This section contains technical specifications for Dev Center components and fea
 
 == Components
 
-* xref:components/dependency-modeler.adoc[Dependency Modeler] - Dependency modeling system
-* xref:components/project-recognizer.adoc[Project Recognizer] - Project technology stack recognition
+* xref:components/dependency-modeler.adoc[Dependency Modeler] - Dependency modeling system for intra-project and external dependencies
+* xref:components/project-recognizer.adoc[Project Recognizer] - Project technology stack recognition module
 * xref:components/repository-provider-registry.adoc[Repository Provider Registry] - Version control system provider registry
-* xref:components/text-editor-link-system.adoc[Text Editor Link System] - Text editor with visual link system
-* xref:components/code-execution-recording.adoc[Code Execution Recording] - Code block execution and output recording
+* xref:components/text-editor-link-system.adoc[Text Editor Link System] - Text editor with visual link system design
+* xref:components/code-execution-recording.adoc[Code Execution Recording] - Code block execution and output recording system
 * xref:components/git-repository-manager.adoc[Git Repository Manager] - Repository relocation and renaming
 
 == Features
 
-* xref:features/opening-web-content-from-docs.adoc[Opening Web Content from Docs] - Native WebView integration
-* xref:features/text-editor-separate-process.adoc[Text Editor Separate Process] - Separate process text editor design
+* xref:features/opening-web-content-from-docs.adoc[Opening Web Content from Docs] - Native WebView integration for in-app browsing
+* xref:features/text-editor-separate-process.adoc[Text Editor Separate Process] - Separate process text editor design philosophy
+
+== Specification Format
+
+All specifications are written in AsciiDoc format and should follow these conventions:
+
+* Use descriptive titles
+* Include clear sections and subsections
+* Document requirements, design decisions, and implementation notes
+* Link to related specifications where appropriate
 
