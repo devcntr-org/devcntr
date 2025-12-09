@@ -1,5 +1,6 @@
 # Antora generated site
-docs-site/site/
+docs/build/site/
+docs/site/node_modules/
 
 # Node.js dependencies
 **/node_modules/
@@ -16,4 +17,3 @@ docs-site/site/
 **/.venv/
 **/target/
 **/.cargo/
-
