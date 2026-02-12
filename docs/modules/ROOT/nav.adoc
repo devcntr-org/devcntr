@@ -2,4 +2,5 @@
 * xref:project-vision.adoc[Project Vision]
 * xref:knowledge-base:index.adoc[Knowledge Base]
 * xref:specifications:index.adoc[Specifications]
+* xref:publishing:index.adoc[Software Publishing]
 

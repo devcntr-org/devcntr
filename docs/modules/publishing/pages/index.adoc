@@ -1,0 +1,10 @@
+= Software Publishing
+:navtitle: Publishing
+
+Welcome to the Software Publishing Hub. 
+
+This section covers strategies, tutorials, and best practices for distributing your software effectively.
+
+== Tutorials
+
+* xref:git-release-workflow.adoc[Git Release Workflow] - Determine when and how to "release" your software.

@@ -1,0 +1,3 @@
+.Software Publishing
+* xref:index.adoc[]
+* xref:git-release-workflow.adoc[Git Release Workflow]
