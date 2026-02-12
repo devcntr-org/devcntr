@@ -2,3 +2,4 @@
 * xref:index.adoc[]
 * xref:git-release-workflow.adoc[Git Release Workflow]
 * xref:automated-releases.adoc[Automated Releases]
+* xref:package-registries.adoc[Package Registries]

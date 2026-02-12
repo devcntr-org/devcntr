@@ -1,0 +1,51 @@
+= Package Registries: Where to Publish?
+:navtitle: Package Registries
+
+Once you have a release, where should you publish it? The answer depends on your language and target audience.
+
+== The "GitHub Packages" Misconception
+
+GitHub Packages supports specific ecosystems: **npm, NuGet, Maven, Gradle, RubyGems, and Docker**.
+
+**It does not verify "generic" software.**
+
+For a D language project like `msi-generator`:
+*   **Is it advisable to publish to GitHub Packages (npm/NuGet)?**
+    *   **No.** It would require wrapping your native binary in a NodeJS or .NET generic wrapper. This adds complexity for no benefit unless your primary users are strictly JS/.NET developers.
+*   **Is there an exception?**
+    *   **Docker (ghcr.io)**: Publishing a container image to GitHub Container Registry is excellent. It allows CI pipelines to use your tool without installation:
+        `docker run --rm -v $(pwd):/src ghcr.io/the-dev-center/msi-generator:latest`
+
+== Recommended Registries for `msi-generator`
+
+[cols="1,2,3"]
+|===
+| Registry | Purpose | Verdict
+
+| **code.dlang.org**
+| The official D package registry.
+| **Essential. Do this first.** Enables `dub fetch msi-generator`.
+
+| **Winget**
+| Windows Package Manager.
+| **Highly Recommended.** Best way for Windows users to install CLI tools.
+
+| **Chocolatey**
+| Legacy Windows Package Manager.
+| **Optional.** Good if you have enterprise users on older systems.
+
+| **Homebrew**
+| macOS Package Manager.
+| **Recommended** if you support macOS users.
+
+| **GitHub Releases**
+| Raw binaries.
+| **Essential.** This is your source of truth. All other managers (Winget, Brew) just point to these URLs.
+|===
+
+== Summary
+
+1.  **Binaries**: Use GitHub Releases (Done).
+2.  **Library**: Use code.dlang.org (Do this next).
+3.  **Containers**: Use GitHub Packages (Container Registry) if you need CI portability.
+4.  **Skip**: npm, Nuget, Maven packages.
