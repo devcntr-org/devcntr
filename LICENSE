@@ -1,12 +1,47 @@
-DEV CENTER SOURCE CODE AND BRANDING LICENSE
+DEV CENTER SOURCE-AVAILABLE AND BRANDING LICENSE
 
 Copyright (c) The Dev Center Project (https://github.com/the-dev-center/dev-center).
 All rights reserved.
 
-This license governs your use of the Dev Center software, documentation, and
-related materials ("Software") in this repository. Most of the Software is
-licensed for open use under the terms below; branding and certain uses are
-restricted.
+--------------------------------------------------------------------------------
+SUMMARY — "I AM GOD"
+--------------------------------------------------------------------------------
+
+The original repository (the-dev-center/dev-center) is the canonical source.
+Respect it as such. In short:
+
+  * YOU MAY: Use, modify, and run the Software. Make and sell your own
+    software (but not by incorporating this Software into it). Fork and
+    contribute back. Distribute the Software or your modified version under
+    this license. Distribute the Software's binaries together with a
+    platform it runs on (e.g., an OS or runtime image). Build plugins that
+    run with Dev Center (without bundling Dev Center with your plugin).
+
+  * YOU MAY NOT: Pretend your fork or product is the official Dev Center or
+    run a competing "Dev Center" company without permission. Bundle this
+    Software into your own product or ship it inside your app's installer as
+    a value-added tool. Use the Dev Center name or branding without
+    permission. Do abusive or malicious things with the Software (see full
+    terms below).
+
+The full license below is what governs your rights and obligations.
+
+--------------------------------------------------------------------------------
+
+This license makes the Dev Center software source-available: you may view,
+use, and modify the Software under the terms below. Commercial use is
+permitted (e.g., you may make and sell your own software), but you may not
+incorporate the Software into your own product (see below). You may
+distribute binaries of the Software together with a platform the Software
+runs on (e.g., an OS image or runtime distribution). You may not bundle the
+Software as a value-added side-tool for your product—for example, you may
+not ship the Software inside another application's installer on the same
+platform the Software runs on. Plugins, extensions, or add-ons that work with
+Dev Center may use the Software in the ordinary way (your plugin runs with
+Dev Center; you do not bundle Dev Center with your plugin). You may not
+offer a competing product or business that substitutes for the official Dev
+Center project without separate written permission. Branding and certain
+distributions remain restricted.
 
 ================================================================================
 1. DEFINITIONS
@@ -21,6 +56,28 @@ splash screens, and visual identity; and any trade dress that would cause
 confusion with the official Dev Center product. Branding is NOT licensed under
 this document. Use of Branding requires separate written permission from the
 copyright holder.
+
+"Competing Use" means using the Software or any derivative (including forks)
+to operate, offer, market, or promote a product, service, or business that
+competes with or substitutes for the official Dev Center project—for example,
+offering your own "Dev Center" company, a near-identical fork as a product or
+service, or a paid alternative that replaces Dev Center. Competing Use
+requires prior written permission from the copyright holder and is not
+granted under this license.
+
+"Incorporation" means distributing, bundling, embedding, or otherwise
+including the Software (or a derivative) as part of your own product or
+software, so that your product ships with or is built on the Software as a
+component—for example, shipping the Software inside another application's
+installer on the same platform the Software runs on, as a value-added or
+bundled side-tool. You may not incorporate the Software into your product.
+Incorporation does not include: (a) distributing binaries of the Software
+together with a platform the Software runs on (e.g., an operating system,
+runtime, or distribution image); or (b) developing or distributing a plugin,
+extension, or add-on that is designed to work with Dev Center and that is
+used in the ordinary way (the user runs Dev Center separately; your plugin
+runs with or within Dev Center; you do not distribute the Software as part
+of your plugin). Incorporation is not granted under this license.
 
 "Prohibited Distribution" means any distribution of the Software (or a
 derivative) that:
@@ -41,59 +98,91 @@ derivative) that:
 ================================================================================
 
 Subject to the conditions and restrictions in this license, you are granted a
-worldwide, non-exclusive, royalty-free license to:
+worldwide, non-exclusive, royalty-free, source-available license to:
 
-  * use the Software;
+  * use the Software for any purpose, including commercial use, subject to
+    the restrictions in Section 3 (no Incorporation into your product; no
+    Competing Use; plugins that work with Dev Center may use the Software in
+    the ordinary way);
   * modify the Software;
   * distribute source code and binaries of the Software or your modifications,
-    provided you do not engage in any Prohibited Distribution and you comply
-    with the Branding restrictions in Section 3.
+    provided you do not engage in Incorporation (Section 3.1), do not engage
+    in Competing Use (Section 3.2), do not engage in any Prohibited
+    Distribution, and you comply with the Branding restrictions in
+    Section 3.3.
 
-You must retain this license and any copyright notices. Distribution of
-modified Software must be under this same license (or a later version the
-copyright holder may designate), with clear indication of your changes.
-
-================================================================================
-3. BRANDING — RESERVED RIGHTS
-================================================================================
-
-No right is granted to use Branding. You may not use the names, logos, or
-trade dress of Dev Center to imply endorsement, official status, or origin
-from the copyright holder unless you have separate written permission. Forked
-or derivative products must not present themselves as "Dev Center" or as
-official or endorsed versions without such permission.
+This license does not grant any right to Incorporation or Competing Use. You must retain this
+license and any copyright notices. Distribution of modified Software must be
+under this same license (or a later version the copyright holder may
+designate), with clear indication of your changes.
 
 ================================================================================
-4. PROHIBITED DISTRIBUTIONS AND PENALTIES
+3. RESERVED RIGHTS: NO INCORPORATION; NO COMPETING USE; BRANDING
 ================================================================================
 
-4.1 Prohibition. You may not create, publish, or maintain any Prohibited
-Distribution. Doing so constitutes a material breach of this license and
+3.1 No Incorporation. No right is granted to incorporate the Software (or any
+derivative) into your own product or software. You may not bundle the
+Software as a value-added side-tool for your product—for example, you may
+not ship the Software inside another application's installer on the same
+platform the Software runs on. You may not otherwise embed, ship, or attach
+the Software to your product so that your product includes or is built on the
+Software as a component. This prohibition does not apply to: (a) distributing
+binaries of the Software together with a platform the Software runs on (e.g.,
+an OS image, runtime, or distribution); or (b) plugins, extensions, or
+add-ons that work with Dev Center in the ordinary way (the user runs Dev
+Center separately; your plugin runs with or within Dev Center; you do not
+distribute the Software as part of your plugin). Incorporation requires
+prior written permission from the copyright holder.
+
+3.2 No Competing Use. No right is granted to use the Software or any
+derivative (including forks) to run, offer, or promote a company, product, or
+service that competes with or substitutes for the official Dev Center
+project (e.g., your own "Dev Center" or a near-identical alternative).
+Competing Use requires prior written permission from the copyright holder.
+
+3.3 Branding. No right is granted to use Branding. You may not use the names,
+logos, or trade dress of Dev Center to imply endorsement, official status, or
+origin from the copyright holder unless you have separate written permission.
+Forked or derivative products must not present themselves as "Dev Center" or
+as official or endorsed versions without such permission.
+
+================================================================================
+4. PROHIBITED CONDUCT AND PENALTIES
+================================================================================
+
+4.1 Prohibition. You may not (a) create, publish, or maintain any Prohibited
+Distribution, (b) engage in Incorporation, or (c) engage in Competing Use.
+Doing any of the foregoing constitutes a material breach of this license and
 violation of the copyright holder's rights.
 
 4.2 Consequences of breach.
 
   (a) All rights granted under this license terminate automatically, worldwide,
-      as to you and any entity you control or that distributes the Prohibited
-      Distribution with your knowledge or participation.
+      as to you and any entity you control or that engages in the breach (e.g.,
+      Prohibited Distribution, Incorporation, or Competing Use) with your
+      knowledge or participation.
 
-  (b) You agree that actual damages for a Prohibited Distribution are difficult
-      to ascertain and that the following amounts are reasonable estimates of
-      harm and not penalties: (i) liquidated damages of fifty thousand United
-      States dollars (USD 50,000) per distinct Prohibited Distribution (e.g.,
-      per app store listing or per distinct product), and (ii) an additional
+  (b) You agree that actual damages for a Prohibited Distribution,
+      Incorporation, or Competing Use are difficult to ascertain and that the
+      following amounts are reasonable estimates of harm and not penalties:
+      (i) liquidated damages of fifty thousand United States dollars (USD
+      50,000) per distinct Prohibited Distribution, per distinct instance of
+      Incorporation, or per distinct instance of Competing Use (e.g., per app
+      store listing, per product that incorporates the Software, or per
+      competing offering or business), and (ii) an additional
       fifty thousand United States dollars (USD 50,000) if the Prohibited
       Distribution is malicious or cognitively abusive as described in
       Section 1(c). The copyright holder may seek these amounts in addition to
       any other remedies.
 
   (c) The copyright holder is entitled to seek injunctive relief (including
-      removal of listings and cessation of distribution) without proof of
-      monetary harm.
+      removal of listings, cessation of distribution, cessation of
+      Incorporation, and cessation of Competing Use) without proof of monetary
+      harm.
 
   (d) In any action to enforce this license or redress a Prohibited
-      Distribution, the prevailing party may recover reasonable attorneys'
-      fees and costs from the non-prevailing party.
+      Distribution, Incorporation, or Competing Use, the prevailing party may
+      recover reasonable attorneys' fees and costs from the non-prevailing party.
 
 4.3 The remedies in this Section 4 are cumulative and not exclusive of any
 other remedies at law or in equity.
