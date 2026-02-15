@@ -1,0 +1,139 @@
+DEV CENTER SOURCE CODE AND BRANDING LICENSE
+
+Copyright (c) The Dev Center Project (https://github.com/the-dev-center/dev-center).
+All rights reserved.
+
+This license governs your use of the Dev Center software, documentation, and
+related materials ("Software") in this repository. Most of the Software is
+licensed for open use under the terms below; branding and certain uses are
+restricted.
+
+================================================================================
+1. DEFINITIONS
+================================================================================
+
+"Software" means source code, documentation, configuration, and other
+materials in this repository, except Branding.
+
+"Branding" means the names "Dev Center", "the-dev-center", "The Dev Center",
+and any variant that suggests official or endorsed origin; all logos, icons,
+splash screens, and visual identity; and any trade dress that would cause
+confusion with the official Dev Center product. Branding is NOT licensed under
+this document. Use of Branding requires separate written permission from the
+copyright holder.
+
+"Prohibited Distribution" means any distribution of the Software (or a
+derivative) that:
+
+  (a) is a frivolous or duplicate listing in an app store, marketplace, or
+      similar distribution channel that adds no substantial value (e.g., a
+      near-identical copy with no meaningful improvement or differentiation);
+
+  (b) is malicious (e.g., contains malware, steals data, or harms users); or
+
+  (c) is cognitively or commercially abusive, including but not limited to:
+      stuffing the product with ads, dark patterns, or monetization that
+      exploits users or the reputation of this project without adding
+      commensurate value.
+
+================================================================================
+2. GRANT OF RIGHTS (SOURCE CODE)
+================================================================================
+
+Subject to the conditions and restrictions in this license, you are granted a
+worldwide, non-exclusive, royalty-free license to:
+
+  * use the Software;
+  * modify the Software;
+  * distribute source code and binaries of the Software or your modifications,
+    provided you do not engage in any Prohibited Distribution and you comply
+    with the Branding restrictions in Section 3.
+
+You must retain this license and any copyright notices. Distribution of
+modified Software must be under this same license (or a later version the
+copyright holder may designate), with clear indication of your changes.
+
+================================================================================
+3. BRANDING — RESERVED RIGHTS
+================================================================================
+
+No right is granted to use Branding. You may not use the names, logos, or
+trade dress of Dev Center to imply endorsement, official status, or origin
+from the copyright holder unless you have separate written permission. Forked
+or derivative products must not present themselves as "Dev Center" or as
+official or endorsed versions without such permission.
+
+================================================================================
+4. PROHIBITED DISTRIBUTIONS AND PENALTIES
+================================================================================
+
+4.1 Prohibition. You may not create, publish, or maintain any Prohibited
+Distribution. Doing so constitutes a material breach of this license and
+violation of the copyright holder's rights.
+
+4.2 Consequences of breach.
+
+  (a) All rights granted under this license terminate automatically, worldwide,
+      as to you and any entity you control or that distributes the Prohibited
+      Distribution with your knowledge or participation.
+
+  (b) You agree that actual damages for a Prohibited Distribution are difficult
+      to ascertain and that the following amounts are reasonable estimates of
+      harm and not penalties: (i) liquidated damages of fifty thousand United
+      States dollars (USD 50,000) per distinct Prohibited Distribution (e.g.,
+      per app store listing or per distinct product), and (ii) an additional
+      fifty thousand United States dollars (USD 50,000) if the Prohibited
+      Distribution is malicious or cognitively abusive as described in
+      Section 1(c). The copyright holder may seek these amounts in addition to
+      any other remedies.
+
+  (c) The copyright holder is entitled to seek injunctive relief (including
+      removal of listings and cessation of distribution) without proof of
+      monetary harm.
+
+  (d) In any action to enforce this license or redress a Prohibited
+      Distribution, the prevailing party may recover reasonable attorneys'
+      fees and costs from the non-prevailing party.
+
+4.3 The remedies in this Section 4 are cumulative and not exclusive of any
+other remedies at law or in equity.
+
+================================================================================
+5. DISCLAIMER OF WARRANTY
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+6. LIMITATION OF LIABILITY
+================================================================================
+
+EXCEPT FOR BREACH OF SECTIONS 3 OR 4 (BRANDING AND PROHIBITED DISTRIBUTIONS),
+IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR AUTHORS BE LIABLE FOR ANY INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+================================================================================
+7. GENERAL
+================================================================================
+
+This license constitutes the entire agreement regarding the Software. If any
+provision is held unenforceable, the remaining provisions remain in effect.
+Failure to enforce any term does not waive that term. You may not assign your
+rights under this license without the copyright holder's prior written consent.
+The copyright holder may publish updated versions of this license; use of the
+Software after publication constitutes acceptance of the new terms for new
+use or distribution.
+
+For permission to use Branding or to clarify terms, contact the project
+through the repository: https://github.com/the-dev-center/dev-center.
