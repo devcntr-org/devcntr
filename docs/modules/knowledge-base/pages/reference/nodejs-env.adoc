@@ -20,4 +20,4 @@ Node.js projects often contain configuration files for package managers:
 
 == Related Topics
 
-* xref:explanation/pnpm-mechanics.adoc[pnpm Disk Space Saving Mechanisms]
+* xref:explanation/infrastructure/pnpm-mechanics.adoc[pnpm Disk Space Saving Mechanisms]

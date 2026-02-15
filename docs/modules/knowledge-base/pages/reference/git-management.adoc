@@ -131,8 +131,8 @@ This setting only affects *new* repositories created with `git init` after the c
 == Related Topics
 
 * xref:how-to/git-ignore-local.adoc[.gitignore.local Convention] - Local ignore files
-* xref:explanation/git-branching.adoc[Branching Strategies] - Git flow, trunk-based development
+* xref:explanation/infrastructure/git-branching.adoc[Branching Strategies] - Git flow, trunk-based development
 * xref:how-to/git-hooks.adoc[Git Hooks] - Automation via commit hooks
 * xref:how-to/git-lfs.adoc[Large Files & LFS] - Handling binary assets
-* xref:explanation/git-submodules.adoc[Submodules & Monorepos] - Multi-repository patterns
+* xref:explanation/infrastructure/git-submodules.adoc[Submodules & Monorepos] - Multi-repository patterns
 * xref:how-to/git-recovery.adoc[Recovery & Troubleshooting] - Reflog, reset, and fixing mistakes

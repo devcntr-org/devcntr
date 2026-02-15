@@ -1,5 +1,5 @@
 = Architectural Lessons: Google Docs Apps Script Optimization
-:author: Gemini 3 Flash
+:author: Gemini 3 Flash and Ryan Johnson
 :navtitle: Apps Script Optimization
 
 == The API Bridge Latency (The "Kix" Problem)

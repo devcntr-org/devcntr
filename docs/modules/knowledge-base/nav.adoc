@@ -23,11 +23,13 @@
 
 .🧠 Explanation
 * xref:explanation/index.adoc[Overview]
-* xref:explanation/architectural-principles.adoc[Architectural Principles]
-* xref:explanation/ssh-keys.adoc[SSH Keys]
-* xref:explanation/git-branching.adoc[Branching Strategies]
-* xref:explanation/git-submodules.adoc[Submodules & Monorepos]
-* xref:explanation/pnpm-mechanics.adoc[pnpm Mechanics]
-* xref:explanation/sync-by-gemini.adoc[Sync: Gemini]
-* xref:explanation/sync-grok4.adoc[Sync: Grok4]
-* xref:explanation/google-docs-apps-script.adoc[Google Docs Apps Script]
+** Architecture
+*** xref:explanation/architecture/principles.adoc[Core Principles]
+*** xref:explanation/architecture/google-docs-apps-script.adoc[Apps Script Optimization]
+** Infrastructure
+*** xref:explanation/infrastructure/ssh-keys.adoc[SSH Keys]
+*** xref:explanation/infrastructure/git-branching.adoc[Branching Strategies]
+*** xref:explanation/infrastructure/git-submodules.adoc[Submodules & Monorepos]
+*** xref:explanation/infrastructure/pnpm-mechanics.adoc[pnpm Mechanics]
+*** xref:explanation/infrastructure/sync-by-gemini.adoc[Sync: Gemini]
+*** xref:explanation/infrastructure/sync-grok4.adoc[Sync: Grok4]
