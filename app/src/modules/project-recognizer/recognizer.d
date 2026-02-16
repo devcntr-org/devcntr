@@ -13,6 +13,8 @@ import std.typecons : Nullable, nullable;
 import std.digest.sha : sha1Of;
 import std.digest : toHexString;
 import std.conv : to;
+import modules.json5 : parseJSON5;
+
 
 /// Maximum file size (in bytes) to scan when checking for keyword matches.
 immutable ulong maxKeywordScanBytes = 1_048_576; // 1 MiB
@@ -216,7 +218,7 @@ class ProjectRecognizer
     {
         enforce(exists(configPath), "Recognition rules file does not exist: "~ configPath);
         auto configContent = readText(configPath);
-        auto json = parseJSON(configContent);
+        auto json = parseJSON5(configContent);
         auto rules = parseRuleContainer(json, configPath);
         return new ProjectRecognizer(rules, options);
     }
@@ -236,7 +238,7 @@ class ProjectRecognizer
             }
 
             auto ext = extension(entry.name).toLower();
-            if (ext != ".json")
+            if (ext != ".json" && ext != ".json5")
             {
                 continue;
             }
@@ -251,7 +253,7 @@ class ProjectRecognizer
         foreach (profilePath; profileFiles)
         {
             auto content = readText(profilePath);
-            auto json = parseJSON(content);
+            auto json = parseJSON5(content);
             auto rules = parseRuleContainer(json, profilePath);
             allRules ~= rules;
         }
@@ -332,7 +334,7 @@ class ProjectRecognizer
         }
 
         auto content = readText(cacheFile);
-        auto json = parseJSON(content);
+        auto json = parseJSON5(content);
         auto model = ArchitectureModel.fromJSON(json);
         model.cacheFile = cacheFile;
         return nullable(model);
@@ -725,7 +727,7 @@ class ProjectRecognizer
         JSONValue json;
         try
         {
-            json = parseJSON(content);
+            json = parseJSON5(content);
         }
         catch (Exception)
         {

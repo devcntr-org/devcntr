@@ -1,0 +1,43 @@
+= JSON5 Endorsement
+:description: Formal endorsement and specification for using JSON5 in Dev Center projects.
+
+JSON5 is a superset of JSON that expands its syntax to include some features from ECMAScript 5.1. It is designed to be easier for humans to write and maintain by hand.
+
+== Rationale
+
+Standard JSON is often too restrictive for configuration files. It lacks support for:
+
+* **Comments**: Explaining why a specific configuration value is set.
+* **Trailing Commas**: Reducing diff noise when adding new items to lists or objects.
+* **Unquoted Keys**: Reducing visual clutter.
+* **Multi-line Strings**: For long descriptions or embedded content.
+
+By endorsing JSON5, we improve the developer experience and maintainability of our configuration files.
+
+== Specification
+
+All projects within `the-dev-center` organization should prefer JSON5 for:
+
+1.  **Configuration Files**: User settings, build configurations, and metadata.
+2.  **Static Data**: Localized strings, mock data, and schemas.
+3.  **Templates**: Repository templates and boilerplate configurations.
+
+=== File Extensions
+
+The preferred file extension is `.json5`. In cases where a tool strictly requires `.json` but supports JSON5 features (like VS Code's `settings.json`), the extension may remain `.json` or `.jsonc`.
+
+=== Formatting Rules
+
+* Use 2-space indentation.
+* Include trailing commas for multi-line objects and arrays.
+* Use single or double quotes for strings as appropriate, but be consistent within a file.
+* Prefer unquoted keys unless the key contains special characters.
+
+== Implementation in D-lang
+
+For D-lang projects, we use the internal `json5-d` library (to be implemented) which provides a native, high-performance JSON5 parser and serializer compatible with `std.json`.
+
+== References
+
+* [JSON5 Official Site](https://json5.org/)
+* [JSON5 Specification](https://spec.json5.org/)
