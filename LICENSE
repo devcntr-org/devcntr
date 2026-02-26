@@ -1,13 +1,13 @@
-DEV CENTER SOURCE-AVAILABLE AND BRANDING LICENSE
+DevCntr SOURCE-AVAILABLE AND BRANDING LICENSE
 
-Copyright (c) The Dev Center Project (https://github.com/the-dev-center/dev-center).
+Copyright (c) The DevCntr Project (https://github.com/devcntr-org/devcntr).
 All rights reserved.
 
 --------------------------------------------------------------------------------
 SUMMARY — "I AM GOD"
 --------------------------------------------------------------------------------
 
-The original repository (the-dev-center/dev-center) is the canonical source.
+The original repository (devcntr-org/devcntr) is the canonical source.
 Respect it as such. In short:
 
   * YOU MAY: Use, modify, and run the Software. Make and sell your own
@@ -15,12 +15,12 @@ Respect it as such. In short:
     contribute back. Distribute the Software or your modified version under
     this license. Distribute the Software's binaries together with a
     platform it runs on (e.g., an OS or runtime image). Build plugins that
-    run with Dev Center (without bundling Dev Center with your plugin).
+    run with DevCntr (without bundling DevCntr with your plugin).
 
-  * YOU MAY NOT: Pretend your fork or product is the official Dev Center or
-    run a competing "Dev Center" company without permission. Bundle this
+  * YOU MAY NOT: Pretend your fork or product is the official DevCntr or
+    run a competing "DevCntr" company without permission. Bundle this
     Software into your own product or ship it inside your app's installer as
-    a value-added tool. Use the Dev Center name or branding without
+    a value-added tool. Use the DevCntr name or branding without
     permission. Do abusive or malicious things with the Software (see full
     terms below).
 
@@ -28,7 +28,7 @@ The full license below is what governs your rights and obligations.
 
 --------------------------------------------------------------------------------
 
-This license makes the Dev Center software source-available: you may view,
+This license makes the DevCntr software source-available: you may view,
 use, and modify the Software under the terms below. Commercial use is
 permitted (e.g., you may make and sell your own software), but you may not
 incorporate the Software into your own product (see below). You may
@@ -37,8 +37,8 @@ runs on (e.g., an OS image or runtime distribution). You may not bundle the
 Software as a value-added side-tool for your product—for example, you may
 not ship the Software inside another application's installer on the same
 platform the Software runs on. Plugins, extensions, or add-ons that work with
-Dev Center may use the Software in the ordinary way (your plugin runs with
-Dev Center; you do not bundle Dev Center with your plugin). You may not
+DevCntr may use the Software in the ordinary way (your plugin runs with
+DevCntr; you do not bundle DevCntr with your plugin). You may not
 offer a competing product or business that substitutes for the official Dev
 Center project without separate written permission. Branding and certain
 distributions remain restricted.
@@ -50,18 +50,18 @@ distributions remain restricted.
 "Software" means source code, documentation, configuration, and other
 materials in this repository, except Branding.
 
-"Branding" means the names "Dev Center", "the-dev-center", "The Dev Center",
+"Branding" means the names "DevCntr", "devcntr-org", "The DevCntr",
 and any variant that suggests official or endorsed origin; all logos, icons,
 splash screens, and visual identity; and any trade dress that would cause
-confusion with the official Dev Center product. Branding is NOT licensed under
+confusion with the official DevCntr product. Branding is NOT licensed under
 this document. Use of Branding requires separate written permission from the
 copyright holder.
 
 "Competing Use" means using the Software or any derivative (including forks)
 to operate, offer, market, or promote a product, service, or business that
-competes with or substitutes for the official Dev Center project—for example,
-offering your own "Dev Center" company, a near-identical fork as a product or
-service, or a paid alternative that replaces Dev Center. Competing Use
+competes with or substitutes for the official DevCntr project—for example,
+offering your own "DevCntr" company, a near-identical fork as a product or
+service, or a paid alternative that replaces DevCntr. Competing Use
 requires prior written permission from the copyright holder and is not
 granted under this license.
 
@@ -74,9 +74,9 @@ bundled side-tool. You may not incorporate the Software into your product.
 Incorporation does not include: (a) distributing binaries of the Software
 together with a platform the Software runs on (e.g., an operating system,
 runtime, or distribution image); or (b) developing or distributing a plugin,
-extension, or add-on that is designed to work with Dev Center and that is
-used in the ordinary way (the user runs Dev Center separately; your plugin
-runs with or within Dev Center; you do not distribute the Software as part
+extension, or add-on that is designed to work with DevCntr and that is
+used in the ordinary way (the user runs DevCntr separately; your plugin
+runs with or within DevCntr; you do not distribute the Software as part
 of your plugin). Incorporation is not granted under this license.
 
 "Prohibited Distribution" means any distribution of the Software (or a
@@ -102,7 +102,7 @@ worldwide, non-exclusive, royalty-free, source-available license to:
 
   * use the Software for any purpose, including commercial use, subject to
     the restrictions in Section 3 (no Incorporation into your product; no
-    Competing Use; plugins that work with Dev Center may use the Software in
+    Competing Use; plugins that work with DevCntr may use the Software in
     the ordinary way);
   * modify the Software;
   * distribute source code and binaries of the Software or your modifications,
@@ -129,21 +129,21 @@ the Software to your product so that your product includes or is built on the
 Software as a component. This prohibition does not apply to: (a) distributing
 binaries of the Software together with a platform the Software runs on (e.g.,
 an OS image, runtime, or distribution); or (b) plugins, extensions, or
-add-ons that work with Dev Center in the ordinary way (the user runs Dev
-Center separately; your plugin runs with or within Dev Center; you do not
+add-ons that work with DevCntr in the ordinary way (the user runs Dev
+Center separately; your plugin runs with or within DevCntr; you do not
 distribute the Software as part of your plugin). Incorporation requires
 prior written permission from the copyright holder.
 
 3.2 No Competing Use. No right is granted to use the Software or any
 derivative (including forks) to run, offer, or promote a company, product, or
-service that competes with or substitutes for the official Dev Center
-project (e.g., your own "Dev Center" or a near-identical alternative).
+service that competes with or substitutes for the official DevCntr
+project (e.g., your own "DevCntr" or a near-identical alternative).
 Competing Use requires prior written permission from the copyright holder.
 
 3.3 Branding. No right is granted to use Branding. You may not use the names,
-logos, or trade dress of Dev Center to imply endorsement, official status, or
+logos, or trade dress of DevCntr to imply endorsement, official status, or
 origin from the copyright holder unless you have separate written permission.
-Forked or derivative products must not present themselves as "Dev Center" or
+Forked or derivative products must not present themselves as "DevCntr" or
 as official or endorsed versions without such permission.
 
 ================================================================================
@@ -225,4 +225,5 @@ Software after publication constitutes acceptance of the new terms for new
 use or distribution.
 
 For permission to use Branding or to clarify terms, contact the project
-through the repository: https://github.com/the-dev-center/dev-center.
+through the repository: https://github.com/devcntr-org/devcntr.
+

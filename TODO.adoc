@@ -1,0 +1,24 @@
+= Dev Center TODO List
+:description: Outstanding tasks and roadmap for the Dev Center application and documentation.
+
+== 🚀 High Priority
+
+* [ ] **Windows Testing Automation Integration**
+** [ ] Implement a `Virtualization` module in D-lang to interface with `libvirt`.
+** [ ] Add a dedicated tab for Snapshot Management in the GUI.
+** [ ] Support one-click revert to "Clean Baseline" for Windows VMs.
+** [ ] Integrate QEMU Guest Agent command runner.
+* [ ] **Installer Maker Integration**
+** [ ] Research open-source installer makers (Inno Setup, NSIS) and provide a wrapper module.
+
+== 📚 Documentation
+
+* [x] Add "Testing Windows Builds on Linux" explanation.
+* [x] Add "Windows Automation via KVM" how-to guide.
+* [ ] Create a tutorial for setting up a fresh Windows 11 VM with QGA and OpenSSH.
+
+== 🛠️ Core App
+
+* [ ] Finish Project Templates installation logic in `app.d`.
+* [ ] Implement real tool detection in `tool_manager.d` (currently mostly mock data).
+* [ ] Add support for `pnpm` workspace analysis.

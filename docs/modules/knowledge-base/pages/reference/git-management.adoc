@@ -2,6 +2,11 @@
 
 Git repository management encompasses the practices, configurations, and workflows needed to effectively maintain version-controlled projects. This document covers common configuration concerns and troubleshooting topics.
 
+[IMPORTANT]
+====
+Ensure you are using the correct Git package (`Git.Git`) before applying these configurations. Avoid standalone `Git.GCM` or `Microsoft.Git` packages. Refer to xref:reference/git-installation.adoc[Git Installation] for details.
+====
+
 For complex topics that warrant deeper coverage, see the related documents linked below.
 
 == Line Endings Configuration

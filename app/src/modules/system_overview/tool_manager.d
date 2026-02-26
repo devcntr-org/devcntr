@@ -41,6 +41,11 @@ class ToolManager {
         allTools ~= ToolStatus("dub", "dlang_logo", ["D"], true, "C:\\D\\dmd2\\windows\\bin", true, ["User PATH"]);
         allTools ~= ToolStatus("Go Compiler", "go_logo", ["Go"], false, "", false, []);
         allTools ~= ToolStatus("Java SDK 21", "java_logo", ["Java", "JVM"], true, "C:\\Program Files\\Java\\jdk-21", false, []);
+
+        // Virtualization & Testing
+        allTools ~= ToolStatus("virt-manager", "settings", ["Virtualization", "Windows Testing"], true, "/usr/bin/virt-manager", true, ["System PATH"]);
+        allTools ~= ToolStatus("virsh (libvirt)", "terminal", ["Virtualization", "Automation"], true, "/usr/bin/virsh", true, ["System PATH"]);
+        allTools ~= ToolStatus("QEMU/KVM", "cpu", ["Virtualization"], true, "/usr/bin/qemu-system-x86_64", true, ["System PATH"]);
     }
 
     ToolStackGroup[] getGroupedTools(bool installedOnly) {

@@ -7,7 +7,8 @@ Before you can write code, you need a modern environment to work in.
 
 1. Install **Windows Terminal** and **PowerShell 7** from the Microsoft Store.
 2. Install **UniGetUI** to manage your software packages.
-3. Enable **sudo for Windows** in your system settings.
+3. Install **Git** using `winget install Git.Git` (see xref:reference/git-installation.adoc[Git Installation] for package advice).
+4. Enable **sudo for Windows** in your system settings.
 
 == 2. Access (The Gate)
 To interact with our repositories, you need a secure identity.

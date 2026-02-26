@@ -39,7 +39,7 @@ After evaluating several D GUI libraries (GtkD, DUI, bindbc-sdl, dfltk), we sele
 === Library Location
 
 The dlangui library has been cloned to:
-`Z:\code\the-dev-center\dlangui`
+`Z:\code\devcntr-app\dlangui`
 
 This is a separate project folder that has been added to the workspace for easy access during development.
 
@@ -167,3 +167,4 @@ src/modules/text-editor-link-system/
 * dlangui GitHub: https://github.com/buggins/dlangui
 * dlangui Documentation: http://buggins.github.io/dlangui/ddox
 * dlangui Getting Started: https://github.com/buggins/dlangui/wiki/Getting-Started
+
